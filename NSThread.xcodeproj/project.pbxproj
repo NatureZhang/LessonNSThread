@@ -13,6 +13,7 @@
 		D969974C1CE96F2100AF905F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D969974A1CE96F2100AF905F /* Main.storyboard */; };
 		D969974E1CE96F2100AF905F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D969974D1CE96F2100AF905F /* Assets.xcassets */; };
 		D96997511CE96F2100AF905F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D969974F1CE96F2100AF905F /* LaunchScreen.storyboard */; };
+		D969975A1CE97B0E00AF905F /* MyThread.m in Sources */ = {isa = PBXBuildFile; fileRef = D96997591CE97B0E00AF905F /* MyThread.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		D969974D1CE96F2100AF905F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D96997501CE96F2100AF905F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D96997521CE96F2100AF905F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D96997581CE97B0E00AF905F /* MyThread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyThread.h; sourceTree = "<group>"; };
+		D96997591CE97B0E00AF905F /* MyThread.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyThread.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				D96997451CE96F2100AF905F /* AppDelegate.m */,
 				D96997471CE96F2100AF905F /* ViewController.h */,
 				D96997481CE96F2100AF905F /* ViewController.m */,
+				D96997581CE97B0E00AF905F /* MyThread.h */,
+				D96997591CE97B0E00AF905F /* MyThread.m */,
 				D969974A1CE96F2100AF905F /* Main.storyboard */,
 				D969974D1CE96F2100AF905F /* Assets.xcassets */,
 				D969974F1CE96F2100AF905F /* LaunchScreen.storyboard */,
@@ -152,6 +157,7 @@
 				D96997491CE96F2100AF905F /* ViewController.m in Sources */,
 				D96997461CE96F2100AF905F /* AppDelegate.m in Sources */,
 				D96997431CE96F2100AF905F /* main.m in Sources */,
+				D969975A1CE97B0E00AF905F /* MyThread.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
